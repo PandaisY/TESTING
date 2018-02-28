@@ -82,13 +82,7 @@ def count_startswith(L, ch):
 
     for item in L:
         if item.startswith(ch):
-<<<<<<< HEAD
             count = count + 1
-
-=======
->>>>>>> 8fcd2b1b35f96ecc26ddda6bf0b32eba382c203f
     return count
-print(count_startswith(['rumba', 'salsa', 'samba'], 's'))
-
 def calvins_function():
     print("Calvin was here!!")
